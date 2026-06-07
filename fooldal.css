@@ -92,17 +92,6 @@ body {
   background-color: rgb(231, 227, 227);
 }
 
-
-
-.intro {
-  position: relative;
-  top: 275px;
-  margin: auto;
-  animation: feljon 1s ease-out forwards;
-
-
-}
-
 i {
   text-decoration: none;
   text-decoration: line-through;
@@ -125,15 +114,6 @@ p {
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-.szekcio {
-  width: 90%;
-  margin: auto;
-  padding: top 108px;
-  position: relative;
-  top: 350px;
-
 }
 
 .szekciocim {
@@ -246,14 +226,34 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: rgb(231, 227, 227);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro {
+  margin: auto;
+  animation: feljon 1s ease-out forwards;
+  padding: 200px;
+}
+
+.szekcio {
+  width: 90%;
+  margin: 100px auto;
+}
 
 footer {
   background: #111;
   color: #fff;
   padding: 40px 20px;
-  position: relative;
-  bottom: -500px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  margin-top: auto; /* EZ A KULCS - a footer a legaljára kerül */
+  box-sizing: border-box;
 }
 
 .footer1 {
