@@ -84,19 +84,6 @@ nav ul li:hover::after {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body {
-  background-color: rgb(231, 227, 227);
-}
-
-footer {
-  background: #111;
-  color: #fff;
-  padding: 40px 20px;
-  position: relative;
-  bottom: -500px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 .footer1 {
   display: flex;
   justify-content: space-between;
@@ -153,31 +140,6 @@ html {
   }
 }
 
-
-
-body {
-  font-family: Arial, sans-serif;
-}
-
-.table-container {
-  overflow-x: auto;
-  padding: 40px;
-  position: absolute;
-  top: 100px;
-  left: 335px;
-  animation: feljon 1s ease-out forwards;
-}
-
-.compare {
-  width: 100%;
-  border-collapse: collapse;
-  background: black;
-  color: #e0b7a4;
-  /* rosegold */
-  border-radius: 10px;
-  overflow: hidden;
-}
-
 .compare thead {
   background: #1a1a1a;
 }
@@ -210,4 +172,40 @@ body {
 
 td {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: rgb(231, 227, 227);
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+footer {
+    background: #111;
+    color: #fff;
+    padding: 40px 20px;
+    margin-top: 50px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.table-container {
+  overflow-x: auto;
+  padding: 130px;
+  margin-top: 90px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  animation: feljon 1s ease-out forwards;
+  flex: 1;
+}
+
+.compare {
+  width: 70%;
+  border-collapse: collapse;
+  background: black;
+  color: #e0b7a4;
+  border-radius: 10px;
+  overflow: hidden;
 }
