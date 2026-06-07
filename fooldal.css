@@ -252,7 +252,7 @@ footer {
   padding: 40px 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 100%;
-  margin-top: auto; /* EZ A KULCS - a footer a legaljára kerül */
+  margin-top: auto;
   box-sizing: border-box;
 }
 
